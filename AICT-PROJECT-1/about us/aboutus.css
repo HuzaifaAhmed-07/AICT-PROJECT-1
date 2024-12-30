@@ -1,0 +1,76 @@
+*{
+  font-family: 'Roboto', sans-serif;  
+  padding: 0px;
+  margin: 0px;
+}
+html,
+body{
+  background-color: black;
+  padding: 5px 5px;
+  margin: 3px 3px;
+  font-family: "Jost", sans-serif;
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:  rgba(0, 0, 0, 0.7);
+}
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 7px;
+}
+.navbar ul li{
+  padding: 18px;
+  list-style: none;
+}
+.navbar ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 13px;
+  border-radius: 14px;
+}
+.navbar ul li a:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.decor{
+  color: red;
+}
+span{
+  color: red;
+}
+p{
+  color: white;
+  font-size: 18px;
+}
+h4 span{
+  font-weight: lighter;
+  color: white;
+  font-size: 16px;
+}
+h4{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+ul li
+{
+  padding: 2px;
+  list-style: none;
+}
+@media (max-width: 530px) {
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar ul{
+    flex-direction: column;
+  }
+  .navbar ul li{
+    padding: 8px;
+  }
+}
