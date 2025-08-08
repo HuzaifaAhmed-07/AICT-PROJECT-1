@@ -1,2 +1,2 @@
 # AICT-PROJECT-1
-FRONTEND WEBSITE PROJECT
+Frontend Design for Resturant webiste 
